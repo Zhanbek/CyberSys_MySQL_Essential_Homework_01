@@ -1,6 +1,6 @@
 CREATE TABLE EmployeeDetails (
-    PersonalID INT PRIMARY KEY,
-    EmployeeID INT,
+    PersonalId INT PRIMARY KEY  AUTO_INCREMENT PRIMARY KEY,
+    EmployeeId INT,
     MaritalStatus VARCHAR(50),
     BirthDate DATE,
     Address VARCHAR(300),
